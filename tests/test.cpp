@@ -1823,7 +1823,7 @@ int FlatBufferTests(const std::string& tests_data_path) {
   FlexBuffersFloatingPointTest();
   FlatbuffersIteratorsTest();
   WarningsAsErrorsTest();
-  SnakeCaseFieldsTest();
+  DisabledWarningsTest();
   NestedVerifierTest();
   SizeVerifierTest();
   PrivateAnnotationsLeaks();
